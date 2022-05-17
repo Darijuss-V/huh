@@ -1,0 +1,25 @@
+reikalingas lygis12
+reikalingas angis
+
+princas = lygis12.princas
+princas.rodykVektorių()
+
+def stok(mygtukas):
+    princas.stok()
+def w(mygtukas):
+    princas.pirmyn()
+def a(mygtukas):
+    princas.left() #buvau sumaises per video su princas.right()
+def s(mygtukas):
+    princas.atgal()
+def d(mygtukas):
+    princas.right() #buvau sumaises per video su princas.left()
+def kirsk(mygtukas):
+    princas.kirsk()
+
+angis.paspaudus('w', w)
+angis.paspaudus('a', a)
+angis.paspaudus('s', s)
+angis.paspaudus('d', d)
+angis.atleidus('<betKuris>', stok)
+angis.paspaudus('space', kirsk)
